@@ -1,6 +1,14 @@
 /* normal */
 .container{
-  padding: 80px 200px;
+  padding: 100px 200px;
+}
+.title{
+  background-color: white;
+  border-radius: 340px;
+  width:fit-content;
+  padding: 10px 20px;
+
+  font-size: 35px;
 }
 
 
@@ -13,6 +21,20 @@
 /* Graphic Page*/
 .graphic{
   background-image: url('../public/image/town_example.png');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: 60% 60%;
+
+  height: 972px;
+  background-color: #1a1f33;
+}
+.flexbox{
+  display: flex;
+}
+.walk ,.jump{
+  margin-top: 220px;
+}
+.cat{
+  margin-top: 480px;
+  margin-left: 400px;
 }

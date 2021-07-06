@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
     </Head>
     <Navbar/>
     <Component {...pageProps}/>
-    <Footer style={{ textAlign: 'center' }}>NextJS Portfolio ©2021 Created by Kamontip Koopiamrug</Footer>
+    <Footer style={{ textAlign: 'center', backgroundColor: '#001529', color:'gray' }}>NextJS Portfolio ©2021 Created by Kamontip Koopiamrug</Footer>
     </>
   )
 }

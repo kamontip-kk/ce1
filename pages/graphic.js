@@ -10,10 +10,12 @@ export default function graphic() {
     
     return (
         <div className={`${styles.graphic} ${styles.container}`}>
-            <h1>Graphic Design</h1>
-            <Image className={styles.walk} src={jojiwalk} alt="jojiwalk"/>
-            <Image className={styles.jump} src={jojijump} alt="jojijump"/>
-            <Image className={styles.cat} src={cat} alt="cat"/>
+            <h1 className={styles.title}>Graphic Design</h1>
+            <div className={styles.flexbox}>
+                <div className={styles.walk}><Image src={jojiwalk} alt="jojiwalk"/></div>
+                <div className={styles.jump}><Image src={jojijump} alt="jojijump"/></div>
+                <div className={styles.cat}><Image src={cat} alt="cat"/></div>
+            </div>
             {/* <Image src={town} alt="town" styles={{width : 200, height: 200}}/> */}
         </div>
     )
