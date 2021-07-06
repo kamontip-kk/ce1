@@ -7,7 +7,7 @@ import styles from '../styles/Home.module.css';
 function Navbar(){
     const { Header } = Layout;
     return(
-        <Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
+        <Header style={{ position: 'fixed', zIndex: 2, width: '100%' }}>
             <div className={styles.logo} />
             <Menu theme="dark" mode="horizontal">
             <Menu.Item key="1"><Link href="/">Home</Link></Menu.Item>

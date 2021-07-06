@@ -9,24 +9,63 @@
   padding: 10px 20px;
 
   font-size: 30px;
+  position: relative;
+  z-index: 1;
+}
+.boxitem{
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+  background-color: rgba(19, 71, 60, 0.685);
+  transform: translateY(-60px);
+}
+.item{
+  width: 800px;
+  height: 500px;
+  margin: 0 auto 40px auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid rgb(131, 150, 123);
+  border-radius: 30px;
 }
 
 
 /* index page */
 .content{
-  background-color: white;
+  background-color: #1a1f33;
+  color: white;
 }
+
+/* Web Page */
+
+
+/* Game Page */
+.gamedev{
+  background-color: rgb(156, 185, 133);
+  overflow: hidden;
+}
+/* .circle{
+  width: 400px;
+  height: 400px;
+  background-color: rgb(90, 119, 90);
+
+  border-radius: 400px;
+  transform: translate(1500px,-1300px);
+} */
 
 
 /* Graphic Page*/
 .graphic{
+  background-color: #1a1f33;
   background-image: url('../public/image/town_example.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 60% 60%;
 
   height: 867px;
-  background-color: #1a1f33;
   overflow: hidden;
 }
 .flexbox{
