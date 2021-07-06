@@ -1,9 +1,18 @@
+/* normal */
 .container{
-  padding: 0 80px;
+  padding: 80px 200px;
 }
-.banner{
-  background-color: rgb(125, 179, 179);
+
+
+/* index page */
+.content{
+  background-color: white;
 }
-.bannertitle{
-  margin-top: 100px;
+
+
+/* Graphic Page*/
+.graphic{
+  background-image: url('../public/image/town_example.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
