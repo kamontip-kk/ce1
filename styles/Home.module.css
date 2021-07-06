@@ -8,7 +8,7 @@
   width:fit-content;
   padding: 10px 20px;
 
-  font-size: 35px;
+  font-size: 30px;
 }
 
 
@@ -25,16 +25,16 @@
   background-repeat: no-repeat;
   background-position: 60% 60%;
 
-  height: 972px;
+  height: 867px;
   background-color: #1a1f33;
 }
 .flexbox{
   display: flex;
 }
 .walk ,.jump{
-  margin-top: 220px;
+  margin-top: 150px;
 }
 .cat{
-  margin-top: 480px;
-  margin-left: 400px;
+  margin-top: 400px;
+  margin-left: 250px;
 }
