@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../styles/Home.module.css';
 import ReactPlayer from 'react-player';
 
-export default function webdev() {
+export default function Webdev() {
     return (
         <div className={`${styles.webdev} ${styles.container}`}>
             <h1 className={styles.title}>Web Development</h1>
