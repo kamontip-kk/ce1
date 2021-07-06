@@ -11,13 +11,8 @@
   font-size: 30px;
   position: relative;
   z-index: 1;
-}
-.boxitem{
-  width: 80%;
-  margin: 0 auto;
-  padding: 40px 0;
-  background-color: rgba(19, 71, 60, 0.685);
-  transform: translateY(-60px);
+
+  box-shadow: 2px 3px 6px 1px rgba(44, 44, 44, 0.712);
 }
 .item{
   width: 800px;
@@ -28,7 +23,6 @@
   justify-content: center;
   align-items: center;
 
-  border: 2px solid rgb(131, 150, 123);
   border-radius: 30px;
 }
 
@@ -40,12 +34,35 @@
 }
 
 /* Web Page */
-
+.webdev{
+  background-color: rgb(44, 44, 44);
+}
+.webbox{
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+  background-color: rgb(27, 27, 27);
+  transform: translateY(-60px);
+}
+.webitem{
+  border: 2px solid rgb(153, 153, 153);
+  box-shadow: 0px 0px 8px 1px rgba(119, 119, 119, 0.712);
+}
 
 /* Game Page */
 .gamedev{
   background-color: rgb(156, 185, 133);
   overflow: hidden;
+}
+.gamebox{
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+  background-color: rgba(19, 71, 60, 0.685);
+  transform: translateY(-60px);
+}
+.gameitem{
+  border: 2px solid rgb(126, 145, 116);
 }
 /* .circle{
   width: 400px;
