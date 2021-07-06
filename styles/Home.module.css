@@ -27,11 +27,26 @@
 
   height: 867px;
   background-color: #1a1f33;
+  overflow: hidden;
 }
 .flexbox{
   display: flex;
+  position: relative;
+  margin-bottom: 20px;
 }
-.walk ,.jump{
+.walk {
+  z-index: 1;
+  margin-top: 150px;
+  position: relative;
+  left: 0;
+  animation: mymove 15s linear infinite;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+@keyframes mymove {
+  0% {transform: translateX(-800px);}
+  100% {transform: translateX(1800px);}
+}
+.jump{
   margin-top: 150px;
 }
 .cat{
