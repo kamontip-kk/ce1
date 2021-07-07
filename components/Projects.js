@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Card, Col, Row, Badge } from 'antd';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image'
+import cat from '../public/image/cat.png'
 
 function Projects(){
     const { Meta } = Card;
@@ -16,7 +17,7 @@ function Projects(){
                     <Link href="/webdev" passHref>
                         <Badge style={{ backgroundColor: '#108ee9' }} count={3}>
                         <Card hoverable style={{ width: 400 }}
-                            cover={<Image alt="Web Development" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>}>
+                            cover={<Image alt="Web Development" src={cat} height={400}/>}>
                             <Meta title="Web Development"/>
                         </Card>
                         </Badge>
@@ -26,7 +27,7 @@ function Projects(){
                     <Link href="/gamedev" passHref>
                         <Badge style={{ backgroundColor: '#108ee9' }} count={3}>
                         <Card hoverable style={{ width: 400 }}
-                            cover={<Image alt="Game Development" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>}>
+                            cover={<Image alt="Game Development" src={cat} height={400}/>}>
                             <Meta title="Game Development"/>
                         </Card>
                         </Badge>
@@ -36,7 +37,7 @@ function Projects(){
                     <Link href="/graphic" passHref>
                         <Badge style={{ backgroundColor: '#108ee9' }} count={1}>
                         <Card hoverable style={{ width: 400 }}
-                            cover={<Image alt="Graphic Design" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>}>
+                            cover={<Image alt="Graphic Design" src={cat}height={400}/>}>
                             <Meta title="Graphic Design"/>
                         </Card>
                         </Badge>
