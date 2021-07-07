@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Card, Col, Row, Badge } from 'antd';
 import styles from '../styles/Home.module.css';
+import Image from 'next/image'
 
 function Projects(){
     const { Meta } = Card;
@@ -15,7 +16,7 @@ function Projects(){
                     <Link href="/webdev" passHref>
                         <Badge style={{ backgroundColor: '#108ee9' }} count={3}>
                         <Card hoverable style={{ width: 400 }}
-                            cover={<img alt="Web Development" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>}>
+                            cover={<Image alt="Web Development" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>}>
                             <Meta title="Web Development"/>
                         </Card>
                         </Badge>
@@ -25,7 +26,7 @@ function Projects(){
                     <Link href="/gamedev" passHref>
                         <Badge style={{ backgroundColor: '#108ee9' }} count={3}>
                         <Card hoverable style={{ width: 400 }}
-                            cover={<img alt="Game Development" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>}>
+                            cover={<Image alt="Game Development" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>}>
                             <Meta title="Game Development"/>
                         </Card>
                         </Badge>
@@ -35,7 +36,7 @@ function Projects(){
                     <Link href="/graphic" passHref>
                         <Badge style={{ backgroundColor: '#108ee9' }} count={1}>
                         <Card hoverable style={{ width: 400 }}
-                            cover={<img alt="Graphic Design" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>}>
+                            cover={<Image alt="Graphic Design" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>}>
                             <Meta title="Graphic Design"/>
                         </Card>
                         </Badge>
