@@ -12,7 +12,7 @@ function Projects(){
         <div className="site-card-wrapper" style={{ marginLeft: 30, marginTop: 30 }}>
             <Row gutter={16}>
                 <Col span={8}>
-                    <Link href="/webdev">
+                    <Link href="/webdev" passHref>
                         <Badge style={{ backgroundColor: '#108ee9' }} count={3}>
                         <Card hoverable style={{ width: 400 }}
                             cover={<img alt="Web Development" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>}>
@@ -22,7 +22,7 @@ function Projects(){
                     </Link>
                 </Col>
                 <Col span={8}>
-                    <Link href="/gamedev">
+                    <Link href="/gamedev" passHref>
                         <Badge style={{ backgroundColor: '#108ee9' }} count={3}>
                         <Card hoverable style={{ width: 400 }}
                             cover={<img alt="Game Development" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>}>
@@ -32,7 +32,7 @@ function Projects(){
                     </Link>
                 </Col>
                 <Col span={8}>
-                    <Link href="/graphic">
+                    <Link href="/graphic" passHref>
                         <Badge style={{ backgroundColor: '#108ee9' }} count={1}>
                         <Card hoverable style={{ width: 400 }}
                             cover={<img alt="Graphic Design" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>}>
