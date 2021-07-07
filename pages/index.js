@@ -12,25 +12,24 @@ const Home = () =>{
 
   return (
     <div className={`${styles.container}`}>
-    <Layout>
     <Content className={styles.content}>
       <Divider orientation="left"></Divider>
       <Row>
-        <Col flex={2}>
-          <div>
-            Hi, my name is Kamontip Koopiamrug
-          </div>
-        </Col>
         <Col flex={3}>
-          <Image src={mypic} alt="mypicture" styles={{width : 400, height: 400}}/>
+          <div style={{fontSize: 50,fontWeight: 'bold', paddingTop: 140, paddingLeft: 40}}>
+            Hi, my name is<br />KAMONTIP KOOPIAMRUG
+          </div>
+          <span className={styles.shadowcircle}></span>
+          <span className={styles.circle}></span>  
         </Col>
+        <Col flex={2}>
+          <Image src={mypic} alt="mypicture" className={styles.mypic} width={450} height={450}/>
+        </Col> 
       </Row>
-
       <About/>
       <Skill/>
       <Projects/>
     </Content>
-    </Layout>
     </div>
   )
 }

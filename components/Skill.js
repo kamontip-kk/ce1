@@ -1,10 +1,11 @@
 import React from 'react';
+import styles from '../styles/Home.module.css';
 
 function Skill(){
     return(
-        <div id="Skill">
-        <h1>My Skills</h1>
-        <ul>
+        <div className={styles.skill}>
+        <h1 id="Skill">My Skills</h1>
+        <ul className={`${styles.text} ${styles.textbox}`} style={{listStyleType: 'none'}}>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
