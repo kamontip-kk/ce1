@@ -3,7 +3,9 @@ import Link from 'next/link';
 import { Card, Col, Row, Badge } from 'antd';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image'
-import cat from '../public/image/cat.png'
+import web from '../public/image/web.png'
+import game from '../public/image/game.png'
+import graphic from '../public/image/bg_town.png'
 
 function Projects(){
     const { Meta } = Card;
@@ -17,7 +19,7 @@ function Projects(){
                     <Link href="/webdev" passHref>
                         <Badge style={{ backgroundColor: '#108ee9' }} count={3}>
                         <Card hoverable style={{ width: 400 }}
-                            cover={<Image alt="Web Development" src={cat} height={400}/>}>
+                            cover={<Image alt="Web Development" src={web}/>}>
                             <Meta title="Web Development"/>
                         </Card>
                         </Badge>
@@ -27,7 +29,7 @@ function Projects(){
                     <Link href="/gamedev" passHref>
                         <Badge style={{ backgroundColor: '#108ee9' }} count={3}>
                         <Card hoverable style={{ width: 400 }}
-                            cover={<Image alt="Game Development" src={cat} height={400}/>}>
+                            cover={<Image alt="Game Development" src={game}/>}>
                             <Meta title="Game Development"/>
                         </Card>
                         </Badge>
@@ -37,7 +39,7 @@ function Projects(){
                     <Link href="/graphic" passHref>
                         <Badge style={{ backgroundColor: '#108ee9' }} count={1}>
                         <Card hoverable style={{ width: 400 }}
-                            cover={<Image alt="Graphic Design" src={cat}height={400}/>}>
+                            cover={<Image alt="Graphic Design" src={graphic}/>}>
                             <Meta title="Graphic Design"/>
                         </Card>
                         </Badge>
