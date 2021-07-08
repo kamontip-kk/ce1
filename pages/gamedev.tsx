@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import ReactPlayer from 'react-player';
 import styles from '../styles/Home.module.css';
 
-export default function Gamedev() {
+export default function Gamedev():ReactElement {
     return (
         <div className={`${styles.gamedev} ${styles.container}`}>
             <h1 className={styles.title}>Game Development</h1>

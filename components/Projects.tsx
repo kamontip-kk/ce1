@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import Link from 'next/link';
 import { Card, Col, Row, Badge } from 'antd';
 import styles from '../styles/Home.module.css';
@@ -7,7 +7,7 @@ import web from '../public/image/web.png'
 import game from '../public/image/game.png'
 import graphic from '../public/image/bg_town.png'
 
-function Projects(){
+function Projects():ReactElement{
     const { Meta } = Card;
 
     return(

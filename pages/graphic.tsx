@@ -1,4 +1,4 @@
-import React ,{ useState } from 'react'
+import React ,{ ReactElement, useState } from 'react'
 import Image from 'next/image'
 import jojiwalk from '../public/image/jojiwalk.gif'
 import jojijump from '../public/image/jojijump.gif'
@@ -6,7 +6,7 @@ import cat from '../public/image/cat.png'
 import styles from '../styles/Home.module.css';
 import { Button } from 'antd';
 
-export default function Graphic() {
+export default function Graphic():ReactElement {
     const [isWalk,setIswalk] = useState(false);
     const [isJump,setIsjump] = useState(true);
 

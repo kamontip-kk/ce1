@@ -1,12 +1,12 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import Head from 'next/head'
 import Navbar from '../components/Nav'
 import 'antd/dist/antd.css';
 import '../styles/globals.css'
-import styles from '../styles/Home.module.css';
+import type { AppProps /*, AppContext */ } from 'next/app'
 import { Layout } from 'antd';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps):ReactElement {
   const { Footer } = Layout;
   return (
     <>
@@ -16,10 +16,10 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
     </Head>
     <Navbar/>
-    <Component {...pageProps}/>
+    <Component/>
     <Footer style={{ textAlign: 'center', backgroundColor: '#001529', color:'gray' }}>NextJS Portfolio ©2021 Created by Kamontip Koopiamrug</Footer>
     </>
   )
 }
 
-export default MyApp
+export default MyApp;

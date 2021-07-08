@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { Layout, Row, Col, Divider} from 'antd';
 import styles from '../styles/Home.module.css';
 import About from '../components/About';
@@ -6,8 +6,7 @@ import Skill from '../components/Skill';
 import Projects from '../components/Projects';
 import Image from 'next/image';
 import mypic from '../public/image/myimg.jpg'
-import resume from '../public/image/resume.png';
-const Home = () =>{
+function Home():ReactElement{
   const {Content} = Layout;
 
   return (
@@ -34,4 +33,4 @@ const Home = () =>{
   )
 }
 
-export default Home
+export default Home;

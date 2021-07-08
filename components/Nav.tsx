@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import Link from 'next/link';
 import { Layout , Menu } from 'antd';
 import styles from '../styles/Home.module.css';
 
 
-function Navbar(){
+function Navbar():ReactElement{
     const { Header } = Layout;
     return(
         <Header style={{ position: 'fixed', zIndex: 2, width: '100%' }}>
@@ -19,4 +19,4 @@ function Navbar(){
     )
 }
 
-export default Navbar
+export default Navbar;

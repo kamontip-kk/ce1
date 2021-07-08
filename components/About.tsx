@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { Timeline } from 'antd';
 import styles from '../styles/Home.module.css';
 
 
-function About(){
+function About():ReactElement{
     return(
         <div className={styles.about}>
             <h1 id="About">About Me</h1>
